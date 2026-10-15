@@ -39,7 +39,7 @@ const Home = () => {
       <HeroSectionPage menudata={menudata} />
       <PopularDishes popularDishes={popularDishes} />
       <AboutUs stats={stats} />
-      <Testimonials testimonials={testimonials} />
+      {/* <Testimonials testimonials={testimonials} /> */}
       <NewItems newItems={newItems} />
       <ContactUs contactInfo={contactInfo} />
       <Offers galleryImage={GalleryImage} />

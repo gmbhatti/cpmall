@@ -33,11 +33,10 @@ const kaushanScript = Kaushan_Script({
 
 export const metadata: Metadata = {
   title: {
-    template: 'Demo: %s - Bistro | Shadcn Studio',
-    default: 'Demo: Bistro - Restaurant Landing Page | Shadcn Studio'
+    template: 'Center Point Mall Faisalabad | %s',
+    default: 'Center Point Mall Faisalabad | Your Lifestyle Destination'
   },
-  description:
-    'Enjoy fresh ingredients, thoughtfully prepared meals, and a welcoming space designed for memorable moments. Experience bistro dining made simple and delicious.',
+  description: 'Have a great shopping experience, and a welcoming space designed for memorable moments.',
   robots: 'index,follow',
   keywords: ['Restaurant', 'Dining', 'Food'],
   icons: {

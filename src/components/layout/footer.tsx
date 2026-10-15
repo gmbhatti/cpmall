@@ -7,8 +7,8 @@ import YoutubeIcon from '@/assets/svg/youtube-icon'
 
 import { Separator } from '@/components/ui/separator'
 
-import BistroLogo from '@/assets/svg/bistro-logo'
 import { footerData } from '@/assets/data/footer'
+import CPLogo from '@/assets/svg/cp-logo'
 
 const Footer = () => {
   return (
@@ -16,13 +16,13 @@ const Footer = () => {
       <div className='mx-auto flex max-w-7xl items-center justify-between gap-3 px-4 py-4 max-md:flex-col sm:px-6 sm:py-6 md:gap-6 md:py-8'>
         <Link href='/#home'>
           <div className='flex items-center gap-3'>
-            <BistroLogo className='gap-3' />
+            <CPLogo className='gap-3' />
             <div className='flex flex-col leading-none'>
               <h1 className='text-primary text-bold text-[24px] leading-none font-semibold tracking-tight'>
                 CENTER POINT
               </h1>
-              <p className='mt-0 text-[4px] leading-none font-semibold text-slate-500 uppercase md:text-base'>
-                FAISALABAD
+              <p className='mt-0 text-[11px] leading-none font-semibold text-slate-500 uppercase'>
+                Your Lifestyle Destination!
               </p>
             </div>
           </div>

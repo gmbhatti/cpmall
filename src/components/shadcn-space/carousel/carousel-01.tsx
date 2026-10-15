@@ -13,10 +13,16 @@ import {
 import { cn } from '@/lib/utils'
 
 const images = [
-  'https://images.shadcnspace.com/assets/gallery/destinations-1.webp',
-  'https://images.shadcnspace.com/assets/gallery/destinations-2.webp',
-  'https://images.shadcnspace.com/assets/gallery/destinations-3.webp',
-  'https://images.shadcnspace.com/assets/gallery/destinations-4.webp'
+  '/images/hero/cp1.png',
+  '/images/hero/cp2.jpg',
+  '/images/hero/cp3.png',
+  '/images/hero/cp4.jpg',
+  '/images/hero/cp5.jpg'
+
+  // 'https://images.shadcnspace.com/assets/gallery/destinations-1.webp',
+  // 'https://images.shadcnspace.com/assets/gallery/destinations-2.webp',
+  // 'https://images.shadcnspace.com/assets/gallery/destinations-3.webp',
+  // 'https://images.shadcnspace.com/assets/gallery/destinations-4.webp'
 ]
 
 const CarouselCustomDots = () => {
@@ -47,8 +53,8 @@ const CarouselCustomDots = () => {
                 <img
                   src={src}
                   alt={`img ${index + 1}`}
-                  width={2400}
-                  height={1800}
+                  width={1600}
+                  height={1200}
                   className='aspect-4/3 rounded-lg object-cover'
                 />
               </figure>

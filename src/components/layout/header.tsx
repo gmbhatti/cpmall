@@ -17,7 +17,7 @@ import { ModeToggle } from '@/components/layout/mode-toggle'
 import { cn } from '@/lib/utils'
 import { scrollToSection } from '@/lib/utils'
 
-import BistroLogo from '@/assets/svg/bistro-logo'
+import CPLogo from '@/assets/svg/cp-logo'
 
 // Active section hook based on which section is closest to the top of the
 // viewport (accounts for header offset). This is more deterministic than
@@ -115,13 +115,14 @@ const Header = ({ navigationData, className }: HeaderProps) => {
       <div className='mx-auto flex h-full max-w-7xl items-center justify-between gap-6 px-4 sm:px-6 lg:px-8'>
         {/* Logo */}
         <Link href='/#home' className='flex items-center gap-3'>
-          <BistroLogo />
+          <CPLogo />
           <div className='flex flex-col leading-none'>
             <h1 className='text-primary text-bold text-[24px] leading-none font-semibold tracking-tight'>
               CENTER POINT
             </h1>
-            <p className='mt-0 text-[4px] leading-none font-semibold text-slate-500 uppercase md:text-base'>
-              FAISALABAD
+            <p className='mt-0 text-[11px] leading-none font-semibold text-slate-500 uppercase'>
+              {/* <p className='mt-0 text-[2px] leading-none font-semibold text-slate-500 uppercase md:text-base'> */}
+              Your Lifestyle Destination!
             </p>
           </div>
         </Link>
@@ -147,11 +148,11 @@ const Header = ({ navigationData, className }: HeaderProps) => {
                 scrollToSection('contact-us')
               }}
             >
-              Book table
+              Dashboard
             </Link>
           </Button>
 
-          {/* Mobile book table button */}
+          {/* Mobile dashboard button */}
           <Tooltip>
             <TooltipTrigger asChild>
               <Button className='ml-4 rounded-full sm:hidden' asChild>
@@ -162,11 +163,11 @@ const Header = ({ navigationData, className }: HeaderProps) => {
                     scrollToSection('contact-us')
                   }}
                 >
-                  Book table
+                  Dashboard
                 </Link>
               </Button>
             </TooltipTrigger>
-            <TooltipContent>Book table</TooltipContent>
+            <TooltipContent>Dashboard</TooltipContent>
           </Tooltip>
 
           {/* Mobile menu button */}
