@@ -9,7 +9,8 @@ import Offers from '@/components/blocks/offers-section/offers-section'
 import { menudata } from '@/assets/data/hero'
 import { popularDishes } from '@/assets/data/popular-dishes'
 import { stats } from '@/assets/data/about-us'
-import { testimonials } from '@/assets/data/testimonials'
+
+// import { testimonials } from '@/assets/data/testimonials'
 import { newItems } from '@/assets/data/new-items'
 import { contactInfo } from '@/assets/data/contact-us'
 import { GalleryImage } from '@/assets/data/offers'
@@ -23,9 +24,8 @@ const jsonLd = {
       '@context': 'https://schema.org',
       '@type': 'WebSite',
       '@id': `${process.env.NEXT_PUBLIC_APP_URL}#website`,
-      name: 'Bistro',
-      description:
-        'Enjoy fresh ingredients, thoughtfully prepared meals, and a welcoming space designed for memorable moments. Experience bistro dining made simple and delicious.',
+      name: 'Center Point Mall',
+      description: 'Have a great shopping experience, and a welcoming space designed for memorable moments.',
       url: `${process.env.NEXT_PUBLIC_APP_URL}`,
       inLanguage: 'en-US'
     }

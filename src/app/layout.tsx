@@ -34,7 +34,7 @@ const kaushanScript = Kaushan_Script({
 export const metadata: Metadata = {
   title: {
     template: 'Center Point Mall Faisalabad | %s',
-    default: 'Center Point Mall Faisalabad | Your Lifestyle Destination'
+    default: 'Center Point Mall Faisalabad | Your Lifestyle Destination!'
   },
   description: 'Have a great shopping experience, and a welcoming space designed for memorable moments.',
   robots: 'index,follow',
@@ -82,13 +82,12 @@ export const metadata: Metadata = {
   metadataBase: new URL(`${process.env.NEXT_PUBLIC_APP_URL ?? 'http://localhost:3000'}`),
   openGraph: {
     title: {
-      template: 'Demo: %s - Bistro | Shadcn Studio',
-      default: 'Demo: Bistro - Restaurant Landing Page | Shadcn Studio'
+      template: 'Center Point Mall Faisalabad | %s',
+      default: 'Center Point Mall Faisalabad | Your Lifestyle Destination!'
     },
-    description:
-      'Enjoy fresh ingredients, thoughtfully prepared meals, and a welcoming space designed for memorable moments. Experience bistro dining made simple and delicious.',
+    description: 'Have a great shopping experience, and a welcoming space designed for memorable moments.',
     type: 'website',
-    siteName: 'Bistro',
+    siteName: 'Center Point Mall',
     url: `${process.env.NEXT_PUBLIC_APP_URL ?? 'http://localhost:3000'}`,
     images: [
       {
@@ -103,11 +102,10 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: {
-      template: 'Demo: %s - Bistro | Shadcn Studio',
-      default: 'Demo: Bistro - Restaurant Landing Page | Shadcn Studio'
+      template: 'Center Point Mall Faisalabad | %s',
+      default: 'Center Point Mall Faisalabad | Your Lifestyle Destination!'
     },
-    description:
-      'Enjoy fresh ingredients, thoughtfully prepared meals, and a welcoming space designed for memorable moments. Experience bistro dining made simple and delicious.'
+    description: 'Have a great shopping experience, and a welcoming space designed for memorable moments.'
   }
 }
 
