@@ -16,7 +16,9 @@ const Footer = () => {
       <div className='mx-auto flex max-w-7xl items-center justify-between gap-3 px-4 py-4 max-md:flex-col sm:px-6 sm:py-6 md:gap-6 md:py-8'>
         <Link href='/#home'>
           <div className='flex items-center gap-3'>
-            <CPLogo className='gap-3' />
+            <div className='gap-3'>
+              <CPLogo />
+            </div>
             <div className='flex flex-col leading-none'>
               <h1 className='text-primary text-bold text-[24px] leading-none font-semibold tracking-tight'>
                 CENTER POINT
