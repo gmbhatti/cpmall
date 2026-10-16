@@ -54,7 +54,7 @@ const AboutUs = ({ stats }: { stats: Stat[] }) => {
                 </div>
                 <span className='text-2xl font-semibold'>{stat.value}</span>
                 <p className='text-muted-foreground text-lg'>
-                  {stat.description[0]} <br /> {stat.description[1]}
+                  {stat.description[0]} <br className='sm:hidden' /> {stat.description[1]}
                 </p>
               </div>
             ))}

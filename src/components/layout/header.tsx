@@ -91,7 +91,11 @@ const Header = ({ navigationData, className }: HeaderProps) => {
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 0)
+      if (window.scrollY > 20) {
+        setIsScrolled(true)
+      } else {
+        setIsScrolled(false)
+      }
     }
 
     window.addEventListener('scroll', handleScroll)
@@ -105,10 +109,12 @@ const Header = ({ navigationData, className }: HeaderProps) => {
   return (
     <header
       className={cn(
-        'fixed top-0 z-50 h-16 w-full border-b transition-all duration-300',
-        {
-          'bg-background shadow-md': isScrolled
-        },
+        'fixed top-0 z-50 h-16 w-full transition-all duration-300',
+
+        // {
+        //   'bg-background shadow-md': isScrolled
+        // },
+        isScrolled ? 'bg-background/95 border-b py-4 shadow-sm backdrop-blur-md' : 'bg-transparent py-6',
         className
       )}
     >
