@@ -16,6 +16,7 @@ import { contactInfo } from '@/assets/data/contact-us'
 import { GalleryImage } from '@/assets/data/offers'
 import HeroSection from '@/components/blocks/hero-section/hero-section'
 import CarouselCustomDots from '@/components/shadcn-space/carousel/carousel-01'
+import PromotionalCarousel from '@/components/blocks/promotions-section/PromotionalCarousel'
 
 const jsonLd = {
   '@context': 'https://schema.org',
@@ -36,6 +37,10 @@ const Home = () => {
   return (
     <>
       <CarouselCustomDots />
+      <div className='z-10 w-full px-5 md:px-10 lg:px-20 xl:px-32 2xl:px-40'>
+        <PromotionalCarousel />
+      </div>
+
       <HeroSectionPage menudata={menudata} />
       <PopularDishes popularDishes={popularDishes} />
       <AboutUs stats={stats} />
