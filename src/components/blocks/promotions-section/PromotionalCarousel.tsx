@@ -97,7 +97,7 @@ export default function PromotionalCarousel() {
         <h2 className='mt-5 text-3xl font-black tracking-tight sm:text-5xl lg:text-6xl'>
           Discover{' '}
           <span className='bg-gradient-to-r from-violet-700 to-fuchsia-500 bg-clip-text text-transparent'>
-            Exclusive Offers
+            Exclusive Offers...
           </span>
         </h2>
 
