@@ -95,12 +95,12 @@ const HeroPromotionsSection = ({ menudata }: { menudata: MenuData[] }) => {
         <div className='grid grid-cols-1 gap-6 gap-y-12 md:gap-y-16 lg:grid-cols-5'>
           <div className='flex w-full flex-col justify-center gap-5 max-lg:items-center lg:col-span-3 lg:h-95.5'>
             <h1 className='text-3xl leading-[1.29167] font-semibold text-balance max-lg:text-center sm:text-4xl lg:text-5xl'>
-              Promotions / Features
+              Al Fatah Store
             </h1>
 
             <p className='text-muted-foreground max-w-xl text-xl max-lg:text-center'>
-              Welcome to Restaurant where passion meets the plate.From sizzling appetisers to signature desserts, every
-              dish is crafted to delight your senses.
+              Welcome to Al Fatah Store where huge variety of quality national and international products is always
+              available.
             </p>
 
             <div className='flex items-center gap-3.5'>
@@ -119,7 +119,9 @@ const HeroPromotionsSection = ({ menudata }: { menudata: MenuData[] }) => {
                 asChild
                 className='bg-primary/10 hover:bg-primary/20 text-primary rounded-full text-base'
               >
-                <Link href='#contact-us'>Book table</Link>
+                <Link href='https://alfatah.pk' target='_blank' rel='noopener noreferrer'>
+                  Visit website
+                </Link>
               </Button>
             </div>
           </div>

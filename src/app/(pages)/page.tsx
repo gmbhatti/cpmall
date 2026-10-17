@@ -6,7 +6,7 @@ import NewItems from '@/components/blocks/new-items-section/new-items'
 import ContactUs from '@/components/blocks/contact-us-section/contact-us-page'
 import Offers from '@/components/blocks/offers-section/offers-section'
 
-import { menudata } from '@/assets/data/hero'
+import { menudata } from '@/assets/data/alfatah'
 import { popularDishes } from '@/assets/data/popular-dishes'
 import { stats } from '@/assets/data/about-us'
 
@@ -46,8 +46,8 @@ const Home = () => {
       <AboutUs stats={stats} />
       {/* <Testimonials testimonials={testimonials} /> */}
       <NewItems newItems={newItems} />
-      <ContactUs contactInfo={contactInfo} />
       <Offers galleryImage={GalleryImage} />
+      <ContactUs contactInfo={contactInfo} />
       {/* Add JSON-LD to your page */}
       <script
         type='application/ld+json'
