@@ -119,7 +119,7 @@ export default function PromotionalCarousel() {
             let positionClasses = 'pointer-events-none translate-x-[120%] scale-75 opacity-0'
 
             if (isActive) {
-              positionClasses = 'z-30 -translate-x-1/2 scale-100 opacity-100'
+              positionClasses = 'z-30 -translate-x-1/2 scale-125 opacity-100'
             } else if (isPrevious) {
               positionClasses = 'pointer-events-none z-20 -translate-x-[125%] scale-[0.82] opacity-80'
             } else if (isNext) {
@@ -165,7 +165,7 @@ export default function PromotionalCarousel() {
                     <Link
                       href={offer.link}
                       tabIndex={isActive ? 0 : -1}
-                      className='mt-6 inline-flex items-center gap-3 rounded-xl bg-white px-5 py-3.5 text-sm font-bold text-slate-900 shadow-lg transition hover:-translate-y-1 hover:bg-violet-600 hover:text-white focus-visible:ring-2 focus-visible:ring-white focus-visible:outline-none sm:mt-8'
+                      className='z-50 mt-6 inline-flex items-center gap-3 rounded-xl bg-white px-5 py-3.5 text-sm font-bold text-slate-900 shadow-lg transition hover:-translate-y-1 hover:bg-violet-600 hover:text-white focus-visible:ring-2 focus-visible:ring-white focus-visible:outline-none sm:mt-8'
                     >
                       {offer.button}
                       <span aria-hidden='true'>↗</span>
@@ -198,7 +198,7 @@ export default function PromotionalCarousel() {
       </div>
 
       {/* Pagination */}
-      <div className='mt-6 flex items-center justify-center gap-2.5' aria-label='Select promotional offer'>
+      <div className='z-60 mt-6 flex items-center justify-center gap-2.5' aria-label='Select promotional offer'>
         {offers.map((offer, index) => (
           <button
             key={offer.tag}

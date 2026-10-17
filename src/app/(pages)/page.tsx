@@ -1,5 +1,5 @@
 import HeroSectionPage from '@/components/blocks/hero-promos-section/hero-section'
-import PopularDishes from '@/components/blocks/popular-dishes/popular-dishes'
+import PopularDishes from '@/components/blocks/populars/popular-dishes'
 import AboutUs from '@/components/blocks/about-us-section/about-us-page'
 import Testimonials from '@/components/blocks/testimonials-section/testimonials-section'
 import NewItems from '@/components/blocks/new-items-section/new-items'
