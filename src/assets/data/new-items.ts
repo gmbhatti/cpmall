@@ -4,7 +4,7 @@ export const newItems = [
     alt: 'Shirt & Tie',
     title: 'Shirt & Tie',
     description:
-      'Delight in the perfect balance of zesty lemon and savoury herbs, beautifully paired with a fresh garden salad.',
+      'The Top Brand in Pakistan for stylish, high-quality formal shirts, suits, sweaters, jackets, and more.',
     blogLink: '#'
   },
   {
@@ -12,7 +12,7 @@ export const newItems = [
     alt: 'Maria B',
     title: 'Maria B',
     description:
-      'A sweet and spicy fusion of tender chicken breast combined with ripe mango and a delightful chili kick.',
+      'Latest fashion collection from traditional to modern, we have it all. Discover the perfect outfit for any occasion today!.',
     blogLink: '#'
   },
   {
@@ -20,7 +20,7 @@ export const newItems = [
     alt: "L'Oreal",
     title: "L'Oreal",
     description:
-      'A healthy, hearty and nutritious dish featuring tempeh, fresh seasonal vegetables, and a light, flavourful sauce.',
+      'Discover authentic skincare, hair care, makeup, and beauty essentials with trusted quality and convenience.',
     blogLink: '#'
   }
 ]

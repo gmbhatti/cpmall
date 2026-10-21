@@ -21,12 +21,12 @@ const NewItems = ({ newItems }: { newItems: NewItem }) => {
         {/* Header */}
         <div className='mx-auto mb-12 flex max-w-2xl flex-col items-center justify-center space-y-4 text-center sm:mb-16 lg:mb-24'>
           <Badge variant='outline' className='h-auto text-sm font-normal'>
-            New Items
+            Top Choices
           </Badge>
           <h2 className='text-2xl font-semibold md:text-3xl lg:text-4xl'>Famous Brands</h2>
           <p className='text-muted-foreground text-xl'>
-            Explore our most recent additions to the menu. Each dish is designed to delight your taste buds and provide
-            a memorable dining experience.
+            Explore the latest trends in fashion and cosmetics. Choose from top brands with great variety and memorable
+            shopping experience.
           </p>
         </div>
 

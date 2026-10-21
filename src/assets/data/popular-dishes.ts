@@ -3,28 +3,29 @@ export const popularDishes = [
     image: '/images/popular-dishes/tanabana1.jpg',
     alt: 'Tana Bana',
     name: 'Tana Bana',
-    type: 'Main course 🥘',
-    description: 'Juicy chicken grilled with herbs and served with garlic sauce.'
+    type: 'Clothing 🥘',
+    description:
+      'Elegant, stylish, and premium-quality clothing that redefines fashion, beauty, confidence, and timeless style.'
   },
   {
     image: '/images/popular-dishes/flamor2.jpg',
     alt: 'Flamor',
     name: 'Flamor',
-    type: 'Main course 🍕',
-    description: 'Crispy crust, fresh mozzarella, and basil a true classic.'
+    type: 'Cosmetics 🍕',
+    description: 'Discover your beauty with Flormar’s vibrant makeup, skincare essentials, stunning and colours.'
   },
   {
     image: '/images/popular-dishes/kryolan.jpg',
     alt: 'Kryolan',
     name: 'Kryolan',
-    type: 'Main course 🥘',
-    description: 'Shrimp, chili, and creamy tomato sauce tossed to perfection.'
+    type: 'Cosmetics 🍕',
+    description: 'Professional makeup and skincare products for a flawless look.'
   },
   {
     image: '/images/popular-dishes/expostore3.jpg',
     alt: 'Expo Store',
     name: 'Expo Store',
-    type: 'Desert 🍫',
-    description: 'Warm molten cake with a scoop of vanilla ice cream.'
+    type: 'Clothing 🍫',
+    description: 'Export quality, trendy and comfirtable. Huge variety for whole family.'
   }
 ]
