@@ -36,9 +36,7 @@ const jsonLd = {
 const Home = () => {
   return (
     <>
-      <div className='z-10 -mr-5 w-full md:px-10 lg:px-20 xl:px-32 2xl:px-40'>
-        <CarouselCustomDots />
-      </div>
+      <CarouselCustomDots />
       <div className='z-10 w-full px-5 md:px-10 lg:px-20 xl:px-32 2xl:px-40'>
         <PromotionalCarousel />
       </div>

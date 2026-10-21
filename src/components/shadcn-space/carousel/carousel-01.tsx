@@ -61,8 +61,8 @@ const CarouselCustomDots = () => {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious className='cursor-pointer' />
-        <CarouselNext className='cursor-pointer' />
+        {/* <CarouselPrevious className='cursor-pointer' /> */}
+        {/* <CarouselNext className='cursor-pointer' /> */}
       </Carousel>
       <div className='mt-5 flex justify-center gap-2'>
         {Array.from({ length: count }).map((_, index) => (
