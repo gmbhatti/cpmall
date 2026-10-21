@@ -159,7 +159,7 @@ const Header = ({ navigationData, className }: HeaderProps) => {
           </Button>
 
           {/* Mobile dashboard button */}
-          <Tooltip>
+          {/* <Tooltip>
             <TooltipTrigger asChild>
               <Button className='ml-4 rounded-full sm:hidden' asChild>
                 <Link
@@ -174,7 +174,7 @@ const Header = ({ navigationData, className }: HeaderProps) => {
               </Button>
             </TooltipTrigger>
             <TooltipContent>Dashboard</TooltipContent>
-          </Tooltip>
+          </Tooltip> */}
 
           {/* Mobile menu button */}
           <MenuDropdown
